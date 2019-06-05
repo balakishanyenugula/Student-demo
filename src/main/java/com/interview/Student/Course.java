@@ -17,8 +17,6 @@ import lombok.Setter;
 
 @Entity
 @Table(name="course")
-@Setter
-@Getter
 public class Course {
 	
 	
