@@ -31,7 +31,24 @@ public class Course {
 	private List<Student> std;
 	
 	
-	
+	public List<Student> getStd() {
+		return std;
+	}
+	public void setStd(List<Student> std) {
+		this.std = std;
+	}
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
 	
 
 }
